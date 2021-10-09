@@ -1,0 +1,201 @@
+
+/****** this is main part*********/
+.main-1{
+    background-color: rgba(127, 193, 255, 0.849);
+    
+}
+
+
+.main{
+    width: 1360px;
+    background-color: rgba(138, 183, 224, 0.849);
+    margin: auto;
+}
+
+
+/**************menu bar part**********/
+.navbar{
+    text-align: right;
+    height: 60px;
+}
+.navbar nav {
+    display: flex;
+    flex-direction: row-reverse;
+    display: inline-block;
+    margin: 9px 28px 5px;
+}
+.navbar nav a {
+    text-decoration: none;
+    padding: 5px 10px 0px 5px;
+    font-size: 21px;
+    color: #fa2307;
+    margin: 5px;
+    display: block;
+}
+
+element.style {
+}
+
+/************** Nave Hover part**************/
+.navbar nav a:hover {
+    color: rgb(248, 113, 64);
+    font-size: 25px;
+    background:rgba(35, 137, 233, 0.527) ;
+
+}
+
+/*************slider part*******/
+.slider {
+    background-image: url(images/slider/slide-3.jpg);
+    padding: 200px 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 500px;
+}
+.slider-edit {
+    padding: 20px 200px;
+    text-align: justify;
+}
+.slider-edit h2 {
+    padding: 0px 35%;
+    color: #1be3f7;
+    font-size: 40px;
+    font-weight: bold;
+    /* background-color: hsl(6deg 5% 42%); */
+    display: inline-block;
+    /* width: 529px; */
+}
+.slider-edit p {
+    DISPLAY: inline-block;
+    /* padding: 1px 24px; */
+    margin: -24px 5px;
+    font-size: 20px;
+    width: 1000px;
+    text-align: justify;
+    color: #fff;
+    background: rgb(67 67 73 / 75%);
+}
+
+/************blog part*******/
+.about{
+    height: 100px;
+    margin: 5px 0;
+    text-align: center;
+
+}
+.about h3{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px 10px;
+
+}
+.blog {
+    margin: 5px 0;
+}
+.blog-1 {
+    width: 32%;
+    display: inline-block;
+    /* float: left; */
+    margin: 0px 5px;
+    border: 1px solid #dfdfdf;
+    height: 350px;
+    overflow: scroll;
+}
+.blog-1 img{
+   max-width: 100%;
+}
+
+/******* this is footer part**********/
+.footer {
+    height: 70px;
+    background-color: #2a9abb;
+}
+.copy {
+    width: 30%;
+    height: 68px;
+    margin: 2px 6px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.connect-us {
+    display: inline-block;
+    /* float: left; */
+    padding: 5px;
+    width: 66%;
+    text-align: right;
+}
+.connect-us ul{
+    list-style-type: none;
+
+}
+.connect-us ul li {
+    display: inline-block;
+}
+.connect-us ul li a {
+    text-decoration: none;
+    display: block;
+    margin: 5px 19px;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+
+
+/**** landform section start ****/
+
+.types {
+    text-align: center;
+}
+.types-con {
+    text-align: center;
+    margin: 5px;
+    padding: 10px 15px;
+}
+
+.types-con p{
+    font-size: 20px;
+}
+.types-con h2{
+    font-size: 30px;   
+    color: #fff;
+}
+.types-main {
+    width: 30%;
+    display: inline-block;
+}
+.photo{
+    width: 100%;
+}
+.types-main ul{
+    list-style: none;
+}
+.types-main ul li{
+    margin: 5px 10px;
+
+}
+.types-main ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    
+
+}
+
+/*********** log in page start *******/
+.log-main{
+    width: 50%;
+    margin: auto;
+    height: 1000px;
+
+}
+.log-main input [type=email]{
+    width:50px;
+}
+.log-main input [type=password]{
+    width: 50px;
+    padding: 10px 5px;
+}
